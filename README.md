@@ -4,7 +4,7 @@ Requirements: RP2040 micro controllers
 ## Compiling (Windows)
 1. Open QMK MSYS
 2. Run the command ``qmk setup``
-3. Place [keyboard](https://github.com/OpenTwig/OpenSweep-qmk-firmware/tree/main/keyboards) folder in ``.\qmk_firmware\``
+3. Place [keyboards](https://github.com/OpenTwig/OpenSweep-qmk-firmware/tree/main/keyboards) folder in ``.\qmk_firmware\``
 4. Run the command ``qmk compile -kb ferris/sweep -km duckyb``
 
 ## Uploading (RP2040)
