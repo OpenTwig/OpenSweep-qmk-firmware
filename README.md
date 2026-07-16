@@ -1,4 +1,18 @@
-Firmware for: [Sweep Keyboard]([https://github.com/davidphilipbarr/Sweep])
+Firmware for: [Sweep Keyboard](https://github.com/davidphilipbarr/Sweep)\
+Requirements: RP2040 micro controllers
+
+## Compiling (Windows)
+1. Open QMK MSYS
+2. Run the command ``qmk setup``
+3. Place keyboard folder in ``.\qmk_firmware\``
+4. Run the command ``qmk compile -kb ferris/sweep -km duckyb``
+
+## Uploading (RP2040)
+1. Plugin the TRRS cable and then the USB cable.
+2. Enter booloader mode
+    * Hold the ``Boot`` Button while powering on a half (this should be done for each half)
+3. Upload the ``ferris_sweep_duckyb.uf2`` file
+    * found in ``.\qmk_firmware\``
 
 ## Keymap Cheat Sheet
 

@@ -1,0 +1,3 @@
+COMBO_ENABLE = no
+CONVERT_TO = rp2040_ce
+COMBO_ENABLE = yes
