@@ -8,7 +8,7 @@ Requirements: RP2040 micro controllers
 4. Run the command ``qmk compile -kb ferris/sweep -km duckyb``
 
 ## Uploading (RP2040)
-1. Enter booloader mode
+1. Enter bootloader mode
     * Hold the ``Boot`` Button while powering on a half (this should be done for each half)
 2. Upload the ``ferris_sweep_duckyb.uf2`` file
     * found in ``.\qmk_firmware\``
